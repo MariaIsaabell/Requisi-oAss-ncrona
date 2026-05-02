@@ -17,12 +17,11 @@
     </nav>
 
     <div class="flex justify-center items-center flex-col">
-        <h1 class="font-bold h-10 text-5xl mt-20 underline decoration-red-900">Bem-Vindo PlotPoint</h1>
-        <P class="text-2xl mt-8 ">Sua porta de entrada para o universo das séries. 
-            Explore detalhes, descubra elencos e encontre sua próxima maratona.</P>
+        <h1 class="font-bold h-10 text-5xl mt-15 underline decoration-red-900">Bem-Vindo PlotPoint</h1>
+        <P class="text-2xl mt-12 ">Sua porta de entrada para o universo das séries. Explore cada detalhe e descubra sua próxima maratona.</P>
     </div>
 
-    <div class="mx-auto mt-30 flex px-40 ">
+    <div class="mx-auto mt-15 flex px-40 ">
         <div class="bg-white shadow-md p-8 rounded-lg w-80 ">
             <h2 class="text-2xl font-bold text-center text-gray-800 mb-6 ">Inicie sua Jornada </h2>
 
@@ -30,34 +29,25 @@
                 <div id="msg" class="transition-opacity duration-1000 opacity-0 text-red-400 text-center"></div>
 
                 <div>
-                    <label for="name" class="text-sm font-medium text-gray-600 block">🎬 Nome</label>
+                    <label for="name" class="text-sm font-medium text-gray-600 block ">🎬 Nome</label>
                     <input type="text" id="nome" placeholder="Digite o Nome da Série"
-                        class="border border-gray-300 mt-1 w-full px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        class="border border-gray-300 mt-1 w-full px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mt-2">
                 </div>
 
-                <div>
-                    <label for="text" class="text-sm font-medium text-gray-600 block">📽️ Gênero</label>
-                    <input type="text" id="genero" placeholder="Digite o Gênero da Série"
-                        class="border border-gray-300 mt-1 w-full px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                </div>
-
-                <button type="button    " id="btn"
-                    class="bg-red-900 w-full text-white py-2 rounded-md cursor-pointer transition duration-800 ">Buscar</button>
+                
+                <button type="button" id="btn"
+                    class="bg-red-900 w-full text-white py-2 rounded-md cursor-pointer transition duration-800 mt-2">Buscar</button>
             </form>
 
         </div>
     </div>
+    <div id="resultado" class="flex justify-center items-center flex-col -mt-80 ml-80">
 
-    <div id="resultado" class="">
-        
     </div>
 
     <script src="atv.js"></script>
 
 
-
-    <!-- <input type="text" placeholder="🔍 Digite o nome da série ">
-    <button type="submit" id="submit-button" class="bg-blue-600 w-full text-white py-2 rounded-md cursor-pointer hover:bg-blue-700 transition duration-800 ">Buscar</button> -->
 </body>
 
 </html>
